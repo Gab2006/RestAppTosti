@@ -14,9 +14,10 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/inpPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.765"
-        tools:layout_editor_absoluteX="149dp" />
+        app:layout_constraintVertical_bias="0.765" />
 
     <EditText
         android:id="@+id/inpPassword"
@@ -26,15 +27,17 @@
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintBottom_toTopOf="@+id/btnLogin"
-        tools:layout_editor_absoluteX="149dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="256dp"
+        android:layout_marginBottom="224dp"
         android:text="LOGIN"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="204dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
