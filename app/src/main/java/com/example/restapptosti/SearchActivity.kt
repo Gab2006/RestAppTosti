@@ -44,7 +44,7 @@ class SearchActivity : AppCompatActivity(){
 
     private fun search(searchedText: String) {
         val queue: RequestQueue = Volley.newRequestQueue(this)
-        val apiKey = "7fb691e1" //Inserisci la tua chiave ottenibile su www.omdbapi.com
+        val apiKey = "2b1922ba"
         val url = "https://www.omdbapi.com/?s=" + searchedText + "&apikey=" + apiKey
 
         val stringRequest = StringRequest(

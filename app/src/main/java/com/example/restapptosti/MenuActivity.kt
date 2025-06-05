@@ -22,7 +22,7 @@ class MenuActivity : AppCompatActivity() {
         }
     }
 
-    private fun intent(nomeActivity: Class<*>){ //Lancia l'intent dal nome per parametro
+    private fun intent(nomeActivity: Class<*>){
         val intent = Intent(this, nomeActivity)
         startActivity(intent)
     }
