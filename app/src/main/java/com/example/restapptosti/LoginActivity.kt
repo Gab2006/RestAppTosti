@@ -23,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
             val email = inputEmail.text.toString()
             val password = inputPassword.text.toString()
 
-            if(email == "caglio@gmail.com" && password == "caglio") {
+            if(email == "prova@gmail.com" && password == "12345") {
                 intent(MenuActivity::class.java)
             } else{
                 val mioToast = Toast.makeText(this, "Credenziali errate!", Toast.LENGTH_SHORT)
